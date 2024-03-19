@@ -1,0 +1,85 @@
+$color-primary: #8c6991;
+$color-primary-dark: #2f1533;
+$color-primary-light: #f9f0ff;
+
+$color-white: #fff;
+$color-grey: #dee2e6;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/assets/images/background-pattern-desktop.svg"),
+    $color-primary-light;
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  color: $color-primary;
+  line-height: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion {
+  background-color: $color-white;
+  width: 37.5rem;
+  height: auto;
+  border-radius: 0.94rem;
+  padding: 2.875rem 2.5rem 1rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+  margin-bottom: 0.813rem;
+}
+
+h1 {
+  font-size: 3.44rem;
+  color: $color-primary-dark;
+}
+
+.question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: $color-primary-dark;
+  padding: 1.875rem 0;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.open .hidden-box {
+  display: block;
+}
+
+.hidden-box {
+  display: none;
+
+  p {
+    line-height: 1.5;
+    padding-bottom: 1.56rem;
+  }
+}
+
+.separator {
+  width: 32.5rem;
+  height: 1px;
+  background-color: $color-grey;
+}

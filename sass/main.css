@@ -5,11 +5,11 @@
 }
 
 body {
-  background: url("/assets/images/background-pattern-desktop.svg") center top,
-    #f9f0ff;
+  background: url("/assets/images/background-pattern-desktop.svg"), #f9f0ff;
+  background-position: center top;
   background-repeat: no-repeat;
   font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #8c6991;
   line-height: 1;
   height: 100vh;
@@ -20,29 +20,29 @@ body {
 
 .accordion {
   background-color: #fff;
-  width: 600px;
+  width: 37.5rem;
   height: auto;
-  border-radius: 15px;
-  padding: 46px 40px 16px;
+  border-radius: 0.94rem;
+  padding: 2.875rem 2.5rem 1rem;
 }
 
 .heading {
   display: flex;
   align-items: center;
-  gap: 30px;
-  margin-bottom: 13px;
+  gap: 1.875rem;
+  margin-bottom: 0.813rem;
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 3.44rem;
   color: #2f1533;
 }
 
 .question {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #2f1533;
-  padding: 30px 0;
+  padding: 1.875rem 0;
 }
 
 .item {
@@ -52,8 +52,8 @@ h1 {
 }
 
 .icons {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
 }
 
@@ -64,14 +64,13 @@ h1 {
 .hidden-box {
   display: none;
 }
-
 .hidden-box p {
   line-height: 1.5;
-  padding-bottom: 25px;
+  padding-bottom: 1.56rem;
 }
 
 .separator {
-  width: 520px;
+  width: 32.5rem;
   height: 1px;
   background-color: #dee2e6;
-}
+}/*# sourceMappingURL=main.css.map */
