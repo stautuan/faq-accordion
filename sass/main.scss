@@ -50,15 +50,15 @@ body {
     margin-bottom: 3.6rem;
   }
 
+  &__icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
   &__title {
     font-size: 5.55rem;
     color: hsl(var(--clr-primary-dark));
   }
-}
-
-.star {
-  width: 4rem;
-  height: 4rem;
 }
 
 .item {
@@ -71,11 +71,11 @@ body {
     font-weight: 600;
     color: hsl(var(--clr-primary-dark));
     line-height: 1;
-  }
-}
 
-.icons {
-  cursor: pointer;
+    &__icons {
+      cursor: pointer;
+    }
+  }
 }
 
 .open .hidden-box {
